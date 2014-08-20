@@ -6,10 +6,11 @@ Developing Golang projects has never been so wonderfully lovely and nice!
 
 * Uses Gulp to automatically re-make and re-run your project - great for web services.
 * No need for a global GOPATH - that stuff is for losers, code wherever you want!
+* Localised extensions - ensure they're kept with your project.
 
 ## Getting Started
 
-```
+```sh
 // Clone the project into your own project folder
 git clone http://github.com/domudall/go-lorious your-project-name
 
@@ -33,12 +34,19 @@ separately (recommended).
 
 Then, just GO!
 
-```
+```sh
 gulp
 ```
 
 Changes within `*.go` files, including deleting and creating them within the
 project and subdirectories (woahMG), will cause a rebuild, and chuck out errors
 if you have any.
+
+## Extensions
+
+If you are using extensions, just add them to the `ext/` directory, and the
+`make` task will pick them up as part of your Go path. Simple.
+
+## Have Fun.
 
 Word.

@@ -25,6 +25,9 @@ git init
 // NPM install that bad-boy and set up gulp globally
 npm install
 sudo npm install -g gulp
+
+// Remove the license (if you want your code to be closed source, for example
+rm LICENSE
 ```
 
 Before running the gulp service, you'll want to change line 71 of the
